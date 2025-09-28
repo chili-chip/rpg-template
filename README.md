@@ -1,17 +1,15 @@
-# 32Blit Boilerplate
+# RPG TEMPLATE
 
-![Build](https://github.com/chili-chip/32blit-boilerplate/workflows/Build/badge.svg)
+![Build](https://github.com/chili-chip/3rpg-template/workflows/Build/badge.svg)
 
-This is a basic template for starting 32blit projects. It shows the basic
-code layout and asset pipeline, hopefully giving folk a starting point for
-any new projects.
+This is a basic template for starting rpg game projects.
 
 It's based on the original `template` project from the 
 [32blit-boilerplate](https://github.com/32blit/32blit-boilerplate), with added support for chilichip's vgc zero.
 
 ## Usage
 
-[Use this template](https://github.com/chili-chip/32blit-boilerplate/generate) to
+[Use this template](https://github.com/chili-chip/rpg-template/generate) to
 generate your own project.
 
 * Edit the CMakeList.txt file to set the name of your project
@@ -40,6 +38,3 @@ cmake .. \
   -DCMAKE_TOOLCHAIN_FILE=../../32blit-sdk/pico2.toolchain
 ```
 [detailed instructions for vgc](https://github.com/chili-chip/32blit-sdk/blob/master/docs/vgc.md)
-
-Platform/Editor specific insctuctions [can be found in the fork of the main 32blit repo](https://github.com/chili-chip/32blit-sdk/blob/master/docs/vgc.md)
-(For Visual Studio, you should follow the "Option 2" instructions, as the boilerplate does not contain a solution file)
