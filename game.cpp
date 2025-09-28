@@ -1,4 +1,5 @@
 #include "game.hpp"
+#include "assets.hpp"
 
 using namespace blit;
 
@@ -10,6 +11,8 @@ using namespace blit;
 //
 void init() {
     set_screen_mode(ScreenMode::hires);
+    screen.sprites = Surface::load(asset_tilemap_color); // use color tileset
+    // screen.sprites = Surface::load(asset_tilemap_mono); // uncomment to use monochrome tileset
 }
 
 ///////////////////////////////////////////////////////////////////////////

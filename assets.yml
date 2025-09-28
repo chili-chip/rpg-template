@@ -5,4 +5,8 @@
 assets.cpp:
   assets/no-image.png:
     name: asset_no_image
+  assets/tilemap-color.png:
+    name: asset_tilemap_color
+  assets/tilemap-mono.png:
+    name: asset_tilemap_mono
 
