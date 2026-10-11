@@ -1,6 +1,6 @@
 # RPG TEMPLATE
 
-![Build](https://github.com/chili-chip/3rpg-template/workflows/Build/badge.svg)
+[![Build](https://github.com/chili-chip/rpg-template/actions/workflows/build.yml/badge.svg)](https://github.com/chili-chip/rpg-template/actions/workflows/build.yml)
 
 This is a basic template for starting rpg game projects.
 
@@ -12,7 +12,7 @@ It's based on the original `template` project from the
 [Use this template](https://github.com/chili-chip/rpg-template/generate) to
 generate your own project.
 
-* Edit the CMakeList.txt file to set the name of your project
+* Edit the CMakeLists.txt file to set the name of your project
 * Edit the metadata.yml file to set the information for your project
 * Edit the LICENSE file to set your name on the license
 * Write lots of super cool code!
